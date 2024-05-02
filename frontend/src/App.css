@@ -1,0 +1,54 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./Vincent-van-Gogh-life-work.webp');
+  background-size: cover; /* This will make sure the image covers the entire .app div */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.box {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)),url('./Vincent-van-Gogh-life-work.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 20px; /* Add spacing between label and dropdown */
+}
+
+.dropzone {
+  border: 2px dashed #030303;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px; /* Add spacing between drop zones */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px; /* Add spacing above the button */
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
